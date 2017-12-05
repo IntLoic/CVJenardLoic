@@ -1,0 +1,66 @@
+/*.amam{
+  height: 100px;
+  width: 100px;
+}
+.amama{
+  height: 100px;
+  width: 80px;
+}
+.amamam{
+  height: 90px;
+  width: 200px;
+}
+.amamama{
+  height: 100px;
+  width: 140px;
+}*/
+
+.am{
+  height: 110px;
+  width: 130px;
+}
+.orange{
+  color:orange;
+}
+
+.belack{
+  height: 60px;
+  background-color: black
+}
+
+.iconique{
+  padding-top: 8px;
+}
+.cont {
+ position: relative;
+ width: 10f%;
+}
+
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 14px;
+ right: 0;
+ height: 150px;
+ width: 100px;
+ opacity: 0;
+ transition: .5s ease;
+ background-color: transparent;
+}
+
+
+.cont:hover .overlay {
+ opacity: 0.8;
+}
+
+
+.texta {
+ color: black;
+ font-size: 18px;
+ position: absolute;
+ top: 75%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
